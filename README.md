@@ -1,6 +1,6 @@
  # **CHURN PREDICTION PROJECT**
 ## **Project Overview:**
-In this project, I used data Aanalytics and classification modelling techniques to genreate insights on cusotmer churn and predict customer churn for the company.
+In this project, I used data analytics and classification modelling techniques to genreate insights on customer churn and predict customer churn for the company.
 
 
 ## 1.1 **Business Undertanding**: 
