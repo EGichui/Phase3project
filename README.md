@@ -23,7 +23,7 @@ The model should be  have a high ability to exclude false positives and false ne
 The project should also identify features that influence customer churn.
 
 ## **Results:**
-##  **factors influencing churn:**
+##  **Factors influencing churn:**
 Customers who churned had received a higher customer service calls than those who remained.
 Customers who exited experienced similar night charges to those who remained. Night charges may not have a higher influence on churn.
 Churners were experienced relatively higher total charges than those who did not exit.
@@ -36,19 +36,19 @@ Customers who exited experienced similar evening charges to those who remained. 
 
 
 
-##  **churn per product:**
+##  **Churn per product:**
 Most customers were not on international plan.
 In both international and non international plan, more customers were retained compared to those that exited.
 There were less customers on voice mail plan compared to those that were not subscribed to voice mail plan.
 In both cases under voice mail plan , less customers exited.
 ![data summary](Churn_summary_by_product.png)
-##  **models developed:**
+##  **Models developed:**
 The project uses 4 classifier models namely.
 Basic logistic regression model
 Tuned logistic regression model with scaling and class balancing
 Basic decision tree classification model
 Tuned decision tree classification with parameter tuning.
-##  **model performance:**
+##  **Model performance:**
 Basic logistic regression model:
 The model was 85% accurate.
 The model is correct 87% of the time in predicting non churners .
@@ -60,7 +60,7 @@ It is not performing well when predicting churners for the company to use.
 
 ![data summary](basic_regression_confusion_matrix.png)
 
-Tuned logistic regression model:
+**Tuned logistic regression model**:
 
 Overall accuracy had declined to 78% from 85% in the base model.  
 The accuracy in predicting non churners has declined to 79% from 87% in the base model.   
@@ -70,7 +70,7 @@ Overall the standardised model has performed better in predicting churners than 
 
 ![data summary](Tuned_logisitic_model.png)
 
-Basic Decision tree Model:
+**Basic Decision tree Model**:
 Overall accuracy has improved to 96% compared to 78% in the improved regression model and 85% in the base regression model.
 The accuracy in predicting non churners has increased to 98%.
 The ability to correctly predict churners has improved 87% compared to 72% in improved Regression model and 18% in base regression model.
@@ -79,7 +79,7 @@ Overall the base decision tree model has a higher value to the company than both
 
 ![data summary](Decision_tree_model_CM.png)
 
-Tuned decision tree Model:
+**Tuned decision tree Model**:
 Overall accuracy has improved to 98% the highest among all the four models.
 The accuracy in predicting non churners has increased to 100%.
 The ability to correctly predict churners has remained at 87% similar to the base decision tree model which was higher than both regression models.
